@@ -18,5 +18,4 @@ export const ContactList = ({ contacts, onDeleteContact, onFilterChange }) => (
     </ul>
   </div>
 );
-
 export default ContactList;

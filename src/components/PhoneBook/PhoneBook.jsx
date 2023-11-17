@@ -1,8 +1,6 @@
 import React from 'react';
-import { ContactForm } from './PhoneBookContactForm';
-import { ContactList } from './PhoneBookContactList';
-import { useContacts } from '../Hooks/useContacts';
-import { useFilter } from '../Hooks/useFilter'; 
+import { useContacts } from '../../Hooks/useContacts';
+import { useFilter } from '../../Hooks/useFilter'; 
 
 const App = () => {
   const { contacts, handleAddContact, handleDeleteContact } = useContacts();

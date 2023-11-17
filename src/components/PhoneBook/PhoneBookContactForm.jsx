@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { nanoid } from 'nanoid';
 
-export class ContactForm extends Component {
+
+export class ContactForm extends React.Component {
   state = {
     name: '',
     number: '',
@@ -62,4 +63,4 @@ export class ContactForm extends Component {
     );
   }
 }
-
+export default ContactForm;
